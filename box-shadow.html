@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"
+        title="DOCUMENT BOX SHADOW">
+
+        <body>
+
+            <p class="one"></p>
+        </body>
+        <p class="two"></p>
+
+        <p class="three"></p>
+
+        <p class="four"></p>
+
+        <p class="five"></p>
+        <style>
+            /* styling dasar biar kotaknya kelihatan */
+            p {
+                width: 120px;
+                height: 80px;
+                background-color: #f2f2f2;
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            p.one {
+                -moz-box-shadow: -5px -5px #777;
+                -webkit-box-shadow: -5px -5px #777;
+                box-shadow: -5px -5px #777;
+            }
+
+            p.two {
+              moz-box-shadow: 5px 5px 5px #777777;  -webkit-box-shadow: 5px 5px 5px #777777; 
+box-shadow: 5px 5px 5px #777777;  
+            }
+
+           p.three {-moz-box-shadow: 5px 5px 5px 5px #777777;  -webkit-box-shadow: 5px 5px 5px 5px #777777; 
+box-shadow: 5px 5px 5px 5px #777777;}  
+
+p.four {-moz-box-shadow: 0 0 10px #777777;  -webkit-box-shadow: 0 0 10px #777777; 
+box-shadow: 0 0 10px #777777;} 
+
+p.five {-moz-box-shadow: inset 0 0 10px #777777;  -webkit-box-shadow: inset 0 0 10px #777777; 
+box-shadow: inset 0 0 10px #777777;} 
+        </style>
+    </head>
+</html>

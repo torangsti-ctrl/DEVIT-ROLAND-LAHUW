@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Border Radius Shapes</title>
+
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background:#f2f2f2;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+    }
+
+    .container{
+      display:flex;
+      gap:40px;
+    }
+
+    .shape{
+      width:120px;
+      height:120px;
+      border:5px solid #ff2f86;
+      background:white;
+    }
+
+    /* Shape 1 */
+    .one{
+      border-top-left-radius:80px 50px;
+    }
+
+    /* Shape 2 */
+    .two{
+      border-radius:1em 4em 1em 4em / 2em 1em 2em 1em;
+    }
+
+    /* Shape 3 */
+    .three{
+      border-radius:100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="shape one"></div>
+    <div class="shape two"></div>
+    <div class="shape three"></div>
+  </div>
+
+</body>
+</html>

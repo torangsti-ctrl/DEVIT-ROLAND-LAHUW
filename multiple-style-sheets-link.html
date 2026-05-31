@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Miltiple Style Sheets Link</title>
+        <link rel="stylesheet" type="text/css" href="../site.css">
+        <link rel="stylesheet" type="text/css"" href="///cs/tables.css">
+        <link rel="stylesheet" type="text/css" href="../css/typography.css">
+
+    </head>
+    <body>
+        <h1>Central park bike hire</h1>
+        <p>rent a bicyle to ride around central park
+        </p>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>per hour</th>
+                <th>per day</th>
+            </tr>
+            <tr>
+                <td>Cruiser</td>
+                <td>$5</td>
+                <td>$45</td>
+            </tr>
+            <tr class="even">
+                <td>21 speed</td>
+                <td>$15</td>
+                <td>$60</td>
+            </tr>
+        </table>
+
+        <h2>WHERE AND WHEN</h2>
+        <p>Loeb Boathouse</p>
+        <p>From april to november bicyle are available on the same day every hour for riding in central park.</p>
+
+        <h2>DEPOSITS</h2>
+        <p>Cash or credit card</p>
+        <p>A $200 deposits is required for the hire of any of our bicyle</p>
+    </body>
+</html>
+
+<style>
+    body {
+        font-family: arial, verdana, sans-serif;
+        color: #111;
+        background-color: #ffffff;
+        width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1, h2, h3 {
+        color: #665544;
+        font-weight: normal;
+    }
+
+    h1 {
+        font-size: 240%;
+        margin-top: 0;
+
+    }
+
+    h2 {
+        font-size: 180%;
+        margin-top: 20px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    th, td {
+        padding: 7px 10px 10px 10px;
+        text-align: left;
+    }
+
+    th {
+        text-transform: uppercase;
+        letter-spacing: 0. 1em;
+        font-size: 90%;
+        border-bottom: 2px solid #111;
+        border-top: 1px solid #999;
+        background-color: #c3e6e5;
+
+    }
+
+    tr.even {
+        background-color: #efefef;
+    }
+
+    tr:hover {
+        background-color: #c3e6e5;
+    }
+
+    h1,h2, h3 {
+        font-family: georgia, "times New Roman", serif;
+    }
+
+    p {
+        font-family: arial, verdana, sans-serif;
+        line-height: 1. 4em;
+        font-size: 90%;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-size: 120%;
+    }
+</style>

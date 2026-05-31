@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video puppy</title>
+    <style>
+        #snow {
+            width: 400px;
+            opacity: 0; /* transparant */
+            transition: opacity 1,5s ease-in; */ efek 1,5 detik */
+        }
+        #snow.muncul {
+            opacity: 1; /* buat gambar timbul */
+        }
+    </style>
+</head>
+<body>
+    <div id="snow">
+    <video width="400" height="320" controls>
+        <source src="movies.png" type="jpeg/png">
+    </video>
+    <p>A video of a puppy palying in the snow</p>
+    </div>
+
+    <script>
+        // jalankan ketika halaman selesai load window.addeventlistent('load', function() {
+        // buat delay 500ms biar lebih smooth
+        setTimeout(function() {
+            document.getElementById('snow').classList.add('muncul');
+        }, 500);
+    </script>
+    
+</body>
+</html>
